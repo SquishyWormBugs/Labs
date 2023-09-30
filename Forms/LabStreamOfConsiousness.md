@@ -94,3 +94,8 @@ For the rest of us, let's take 2 more minutes and make it not ugly and generic.
     ![ai design](./assets/formsAIDesign.png)
 
 It's not perfect, so play around with it, but chances are you'll end up with a fancy looking form within just a few minutes. As we'll soon see, we can then leverage these programatically and trigger all sorts of fancy things!
+
+#### :books: Resources
+
+- [Change a form theme](https://support.microsoft.com/en-us/office/change-a-form-theme-895ca902-833b-4f56-9488-f36480d837ef)
+- [Design templates for forms](https://create.microsoft.com/en-us/forms-templates)
