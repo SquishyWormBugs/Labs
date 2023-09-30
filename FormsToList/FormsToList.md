@@ -72,7 +72,7 @@ We'll be using a SharePoint List to store our form responses. This has several a
 
     ![create submitted by column](./assets/formsToListCreateSubmittedBy.png)
 
-    > :bulb: Unlike when we created the list, the internal column names will have the spaces stripped out when created from the modern list view. However, if you create them from the classic list settings page, you'll need to account for spaces and special characters.
+> :bulb: Unlike when we created the list, the internal column names will have the spaces stripped out when created from the modern list view. However, if you create them from the classic list settings page, you'll need to account for spaces and special characters.
 
 1. Repeat the previous 2 steps to create a **Text** column named **Submitter Email**. You now have the four columns necessary to store the form results:
 
@@ -99,7 +99,7 @@ We've got everything we need for the form responses, but it's very common for a 
 
     ![customize priority pills](./assets/formsToListPriorityPills.png)
 
-    > :bulb: This type of customization is known as a Design Mode wizard. There are several pre-existing formats you can easily apply using configuration screens similar to this one to apply column/view formatting to your lists. These are often an excellent starting point to generate close to what you want and then to switch to the advanced editor to finalize.
+> :bulb: This type of customization is known as a Design Mode wizard. There are several pre-existing formats you can easily apply using configuration screens similar to this one to apply column/view formatting to your lists. These are often an excellent starting point to generate close to what you want and then to switch to the advanced editor to finalize.
 
 #### :books: Resources
 

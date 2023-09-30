@@ -6,7 +6,7 @@ Welcome to the Power Platform Conference! Let's talk about... Microsoft Forms? W
 
 1. Head over to [forms.microsoft.com](https://forms.microsoft.com) and sign in with your credentials.
 
-    > :bulb: For this and all other exercises in these labs, we strongly recommend getting a free [Microsoft 365 Developer Tenant](https://aka.ms/m365devprogram). It only takes a few minutes and you'll have an entire environment isolated from your organization's tenant.
+> :bulb: For this and all other exercises in these labs, we strongly recommend getting a free [Microsoft 365 Developer Tenant](https://aka.ms/m365devprogram). It only takes a few minutes and you'll have an entire environment isolated from your organization's tenant.
 
 1. Click **New Form** in the upper left corner:
 
@@ -28,7 +28,7 @@ Welcome to the Power Platform Conference! Let's talk about... Microsoft Forms? W
 
     ![second question](./assets/formsSecondQuestion.png)
 
-    > :bulb: Notice that this question is automatically marked as Required. This is because Forms tries to help you out by assuming settings should keep applying as you go. It's super effective!
+> :bulb: Notice that this question is automatically marked as Required. This is because Forms tries to help you out by assuming settings should keep applying as you go. It's super effective!
 
 1. We're going to provide the option for the requestor to receive follow-up as their design moves through the process. Because we plan to make this form available anonymously to reach the widest audience, we have to ask for their contact details ourselves. Ask for their Name. Ensure Long answer is not toggled. You can leave the subtitle on and blank (it will be ignored) or you can remove it the same way we added it using the 3 dots menu. Click **Text** for our next question.
 
