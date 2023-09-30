@@ -8,7 +8,7 @@ Here's a technical drawing:
 
 ![logical architecture](./assets/formsToListTechnicalDrawing.png)
 
-    > :bulb: We're professionals and so can you!
+> :bulb: We're professionals and so can you!
 
 Also, if you didn't finish the form or ran into trouble, here's a link to copy the form into your tenant: https://forms.office.com/Pages/ShareFormPage.aspx?id=ZmB4d5LZv0Gs188U2oRP_SgB4nRVA7RLsq9_SGo5o3hUOEFUWDA0WU4yMkQ2OFFNNFpLSkNSQlNJSC4u&sharetoken=eblJmSBhNgeiCsnV7Mts
 
@@ -17,7 +17,7 @@ Also, if you didn't finish the form or ran into trouble, here's a link to copy t
 
 We'll be using a SharePoint List to store our form responses. This has several advantages such as available licensing, low barrier of entry, views, field sorting, validation, web parts, calculated fields, webhooks, power automate triggers, power apps integration, and more. There are also potential disadvantages depending on the solution.
 
-    > :bulb: This is not a recommendation to prefer SharePoint as a datasource, just a recognition that it is the most popular datasource for a lot of reasons and you're going to be using it at somepoint. It is, however, an excellent choice for some scenarios. As with all things, it depends on the context.
+> :bulb: This is not a recommendation to prefer SharePoint as a datasource, just a recognition that it is the most popular datasource for a lot of reasons and you're going to be using it at somepoint. It is, however, an excellent choice for some scenarios. As with all things, it depends on the context.
 
 1. While you don't have to have a dedicated site for this, we recommend creating one to keep things scoped here and for easy reference later. If you don't have access to a [Microsoft 365 Developer Tenant](https://aka.ms/m365devprogram) and you are unable to create a site in your tenant, please ask us for assistance.
 
@@ -46,9 +46,9 @@ We'll be using a SharePoint List to store our form responses. This has several a
 
     ![design triage list creation](./assets/formsToListNameList.png)
 
-    > :bulb: We left the space out to prevent the URL from having an ugly %20 where the space would be. Now we'll fix the way it displays while keeping the URL oh so pretty
+> :bulb: We left the space out to prevent the URL from having an ugly %20 where the space would be. Now we'll fix the way it displays while keeping the URL oh so pretty
 
-    > :warning: Depending on what release ring your tenant is on, you may be directed to the modern list view page within SharePoint or you may end up on Microsoft Lists. It's highly irritating. If you end up on Microsoft Lists (no header or menu to get back to your site), you can edit the url to go to the root of the site and click on the navigation link to the list in the menu and this _should_ respect your preference to stay in the site list view.
+> :warning: Depending on what release ring your tenant is on, you may be directed to the modern list view page within SharePoint or you may end up on Microsoft Lists. It's highly irritating. If you end up on Microsoft Lists (no header or menu to get back to your site), you can edit the url to go to the root of the site and click on the navigation link to the list in the menu and this _should_ respect your preference to stay in the site list view.
 
 1. Click on the list name and add the space in the **Rename** dialog then click **Save**. Now the URL is pretty and the display name is pretty. Rejoice!
 
