@@ -120,14 +120,14 @@ These instructions are for Microsoft Edge. You can also use **User profiles** in
 
 ## Exercise 3: Adding trial licenses
 
-Many of the labs in this workshop will require you to get access to full Power Apps Per User license. To add some trial licenses, follow these steps:
+Many of the labs in this workshop will require you to get access to full Power Apps Premium license. To add some trial licenses, follow these steps:
 
 1. From the **[Get started](<https://www.office.com/?auth=2>)** page, select the **Admin** icon in the navigation.
 2. In the **Microsoft 365 admin center**, select **Billing**, followed by **Billing accounts**
 3. Select the billing account associated to your developer tenant and enter your **Sold to address** to your own address, then hit **Save**.
    > Pssst. If you do not have an address in the United States, try using the address of your hotel.
 4. In the left navigation, select **Purchase services**
-5. In the **Purchase services** page, search for **Power Apps per user plan**. Select **Details**
+5. In the **Purchase services** page, search for **Power Apps Premium**. Select **Details**
 6. In the **Power Apps per user plan** page, select **Start free trial**.
 7. In the **Check out** page, select **Try now**
 8. In the **Order receipt**, select **Continue**
