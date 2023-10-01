@@ -10,10 +10,7 @@ Welcome to your first lab! This lab is all about getting your environment ready 
 |Icon|Meaning|
 |---|---|
 |:rocket:|Exercise|
-|:apple:|Mac specific instructions|
-|:shield:|Admin mode required|
 |:bulb:|Hot tip!|
-|:hedgehog:|Code catch-up|
 |:warning:|Caution!|
 |:books:|Resources|
 
@@ -166,10 +163,49 @@ We'll be using a SharePoint List to store  form responses. This has several adva
 -[Team Site vs. Communication Site: Which one should I choose?](https://learn.microsoft.com/microsoft-365/community/team-site-or-communication-site)
 
 
+## :rocket: Exercise 5: Create a SharePoint list
+
+1. On the home page of your site, click the **New** button and choose **List**
+
+1. Choose **Blank list** and provide a name like **"Whatever"** (this is a temporary list) then click **Create**
+
+1. There's only a title column for now, but go ahead and add a couple of items
+
+1. Click on the column header, choose Column Settings > Format this column
+
+1. In the panel, choose Advanced Mode to be taken to the JSON editor
+
+1. Paste the following format then click **Preview**:
+
+```JSON
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "color": "lime",
+    "font-size": "18px"
+  }
+}
+```
+
+1. My eyes! Your eyes!
+
+> :bulb: This basic format generates a `div` element, fills it with the value for list item, and applies some ugly styles - Wowee!
+
+1. Try changing the color by replacing `lime` with another color value like `red`, `#000000`, or `rgba(100,200,200,1)`
+
+> :bulb: Pretty much anything you can put in CSS you can put here (it's whitelisted, so there are definitely exceptions, but 90% of the stuff you need is there)
+
+1. Let's make the text a little more dynamic. To convert our text from simple value replacement to an expression, we need to start it with a `=` so let's swap out `"txtContent": "@currentField"` to `"txtContent": "=@currentField + '!'"`
+
+1. You did it! Wowee!
+
+
 ## :tada: All Done
 
 ![Great Job!](assets/GreatJob.jpg)
 
-In our next lab, we'll apply everything we've done so far to create a web part! Aw yeah!!
+That's it for now!
 
 # [Next](../Lab02/README.md)
