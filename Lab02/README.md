@@ -1,6 +1,6 @@
 # Lab 2: Building an Intake Form
 
-## :rocket: Exercise X: Building a Microsoft Forms form
+## :rocket: Exercise 1: Building a Microsoft Forms form
 
 Welcome to the Power Platform Conference! Let's talk about... Microsoft Forms? We'll be doing a ton of stuff involving the Power Platform, but Microsoft Forms is a valuable tool to keep in your arsenal. It's full of limitations! But that's also why it's very easy to use and perfect for tons of use cases such as surveys, quick data collection, anonymous feedback, event planning, other stuff probably, etc.
 
@@ -44,7 +44,7 @@ Welcome to the Power Platform Conference! Let's talk about... Microsoft Forms? W
 - [Getting started with Microsoft Forms](https://www.youtube.com/watch?v=DtwFMLu3TJU) (Video)
 
 
-## :rocket: Exercise X: Getting fancy with branching
+## :rocket: Exercise 2: Getting fancy with branching
 
 If you hit Preview on the Form you'll already have a pretty good looking form!
 
@@ -66,7 +66,7 @@ But... there's something weird you might have spotted. There's a little note at 
 
     ![choice question](./assets/formsChoiceQuestion.png)
 
-1. Great! But let's move that question up by clicking off the question (to stop editing it) and then simply dragging it above the question asking for their name and releasing. This will automaticlly renumber our questions. Try that Power Apps!
+1. Great! But let's move that question up by clicking off the question (to stop editing it) and then simply dragging it above the question asking for their name and releasing. This will automatically renumber our questions. Try that Power Apps!
 
 1. Now that we know if they want follow-up or not, we can apply Branching to allow our form to become a choose your own adventure style adventure for adventurers! Click on our choice question again (now question number 3) to edit it and choose the 3-dots menu in the bottom-right corner and choose **Add branching**:
 
@@ -83,17 +83,17 @@ But... there's something weird you might have spotted. There's a little note at 
 - [Use branching logic in Microsoft Forms](https://support.microsoft.com/en-us/office/use-branching-logic-in-microsoft-forms-16634fda-eddb-44da-856d-6a8213f0d8bb)
 
 
-## :rocket: Exercise X: Deuglify your form
+## :rocket: Exercise 3: De-uglify your form
 
 If you're happy with the form, then you're good to go. Click **Collect responses** at the top to get the links, embed codes, QR codes, etc. and you're done!
 
 For the rest of us, let's take 2 more minutes and make it not ugly and generic.
 
-1. There are several style options available and more being added frequently including designs suggested by AI (lazers probably). You can click the **Style** button to open the panel and see the options. Choose something nice and preview it.
+1. There are several style options available and more being added frequently including designs suggested by AI (lasers probably). You can click the **Style** button to open the panel and see the options. Choose something nice and preview it.
 
     ![ai design](./assets/formsAIDesign.png)
 
-It's not perfect, so play around with it, but chances are you'll end up with a fancy looking form within just a few minutes. As we'll soon see, we can then leverage these programatically and trigger all sorts of fancy things!
+It's not perfect, so play around with it, but chances are you'll end up with a fancy looking form within just a few minutes. As we'll soon see, we can then leverage these programmatically and trigger all sorts of fancy things!
 
 #### :books: Resources
 
