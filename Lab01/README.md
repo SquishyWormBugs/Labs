@@ -10,10 +10,7 @@ Welcome to your first lab! This lab is all about getting your environment ready 
 |Icon|Meaning|
 |---|---|
 |:rocket:|Exercise|
-|:apple:|Mac specific instructions|
-|:shield:|Admin mode required|
 |:bulb:|Hot tip!|
-|:hedgehog:|Code catch-up|
 |:warning:|Caution!|
 |:books:|Resources|
 
@@ -36,28 +33,28 @@ Please follow your employer's security guidelines when using your development te
 
 
 1. Using your browser in a new browser profile that you have just created, browse to <https://developer.microsoft.com/microsoft-365/dev-program>
-   ![Join the Microsoft 365 Developer Program Today](2023-10-01-04-24-35.png)
+   ![Join the Microsoft 365 Developer Program Today](./assets/2023-10-01-04-24-35.png)
 2. Under **Join the Microsoft 365 Developer Program Today!**, select **Join now**
 3. When prompted to log-in, use your own Microsoft credentials (e.g. live.com, outlook.com -- not your corporate email address)
-   ![Sign in](2023-10-01-04-25-43.png)
+   ![Sign in](./assets/2023-10-01-04-25-43.png)
    > If you do not want to use your personal email address, you can create a new one by visiting https://live.com 
 4. On the **Join the Microsoft Developer Program!** page, select your country for your **Country/Region** 
 5. In the **Company** field, type a fictitious company that you want to use for your development tenant. For example, if your name is `April`, you may wish to use `April Dev`. **Do not use your work company name**
 6. Select your **Language preference** and accept the terms and conditions. Whether you wish to receive information, tips, and offers is entirely up to you. Select **Next**
-   ![](2023-10-01-04-36-36.png)
+   ![](./assets/2023-10-01-04-36-36.png)
 7. Select your **Applications for internal use at my company** as your **primary focus** and select **Next**
-   ![](2023-10-01-04-38-36.png)
+   ![](./assets/2023-10-01-04-38-36.png)
 8. When prompted **What areas of Microsoft 365 development are you interested in?**, select whichever options you wish, but you *may* want to select **Power Platform** at a minimum. Select **Save**
-   ![](2023-10-01-04-39-17.png)
+   ![](./assets/2023-10-01-04-39-17.png)
 9. In the **Set up your Microsoft 365 E5 sandbox** dialog, when prompted to **Choose your Microsoft 365 E5 developer sandbox**, select **Instant sandbox**, and select **Next**. We won't have enough time today to configure your own sandbox from scratch.
-   ![](2023-10-01-04-40-09.png)
+   ![](./assets/2023-10-01-04-40-09.png)
 10. In the **Set up your Microsoft 365 E5 instant sandbox**, provide your desired **Admin username** (it will be unique to your tenant, so you can simply use your first name if you wish to)
 11. Provide a new **Admin password** for your admin user (let's use a *new* password, shall we?!). Re-enter your new password in **Confirm admin password**.
 12. By default, the system will create an additional 16 users with fictitious names and your same password to be used as for testing purposes. You may choose to enter a new alternative user password under **Use alternative password for all 16 fictitious users**
 13. Select **Continue**
-   ![](2023-10-01-04-53-03.png)
+   ![](./assets/2023-10-01-04-53-03.png)
 14. In the **Add phone number for security**, enter your mobile **Phone number** (and select the appropriate **Country code**), then select **Send code**
-   ![](2023-10-01-04-52-27.png)
+   ![](./assets/2023-10-01-04-52-27.png)
 15. When you receive a code on your mobile device, enter the code and select **Set up**
     > If you get an error message when entering your phone number, it may be because you used your phone number too many times to create other developer tenants. A-hem, at least that's what I heard.
 16. when your tenant setup is complete, it will redirect you to **Your Microsoft 365 developer subscriptions**, where it should display your tenant's **Domain name**
@@ -166,10 +163,49 @@ We'll be using a SharePoint List to store  form responses. This has several adva
 -[Team Site vs. Communication Site: Which one should I choose?](https://learn.microsoft.com/microsoft-365/community/team-site-or-communication-site)
 
 
+## :rocket: Exercise 5: Create a SharePoint list
+
+1. On the home page of your site, click the **New** button and choose **List**
+
+1. Choose **Blank list** and provide a name like **"Whatever"** (this is a temporary list) then click **Create**
+
+1. There's only a title column for now, but go ahead and add a couple of items
+
+1. Click on the column header, choose Column Settings > Format this column
+
+1. In the panel, choose Advanced Mode to be taken to the JSON editor
+
+1. Paste the following format then click **Preview**:
+
+```JSON
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "color": "lime",
+    "font-size": "18px"
+  }
+}
+```
+
+1. My eyes! Your eyes!
+
+> :bulb: This basic format generates a `div` element, fills it with the value for list item, and applies some ugly styles - Wowee!
+
+1. Try changing the color by replacing `lime` with another color value like `red`, `#000000`, or `rgba(100,200,200,1)`
+
+> :bulb: Pretty much anything you can put in CSS you can put here (it's whitelisted, so there are definitely exceptions, but 90% of the stuff you need is there)
+
+1. Let's make the text a little more dynamic. To convert our text from simple value replacement to an expression, we need to start it with a `=` so let's swap out `"txtContent": "@currentField"` to `"txtContent": "=@currentField + '!'"`
+
+1. You did it! Wowee!
+
+
 ## :tada: All Done
 
 ![Great Job!](assets/GreatJob.jpg)
 
-In our next lab, we'll apply everything we've done so far to create a web part! Aw yeah!!
+That's it for now!
 
 # [Next](../Lab02/README.md)
