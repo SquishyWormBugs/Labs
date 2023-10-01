@@ -114,4 +114,4 @@ Let's add a Status column to the Design Triage list. This will be used to filter
 
 ## Next steps
 
-Bored? Move on to [Lab 5]
+Bored? Move on to [Lab 5](../Lab05/README.md)
