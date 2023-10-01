@@ -1,4 +1,4 @@
-# Submit Forms to a List
+# Lab 3: Submit Forms to a List
 
 We've got a shiny new Microsoft Forms form and we can easily collect responses and download them to Excel and that's great! But, we can use Power Automate to direct those responses to somewhere more useful.
 
@@ -147,3 +147,9 @@ MAGICAL!!!
 #### :books: Resources
 
 - [Record form response in SharePoint Power Automate Template](https://powerautomate.microsoft.com/templates/details/2be590104bdd11e78896d10a96d3fac3/record-form-responses-in-sharepoint/)
+
+## Next steps
+
+If only there was a way to create a Power Automate flow to reject requests... Wait! There is!!! 
+
+But you'll have to go to [Lab 4 to find out](../Lab04/README.md)
