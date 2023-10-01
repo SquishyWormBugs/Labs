@@ -80,7 +80,7 @@ But... there's something weird you might have spotted. There's a little note at 
 
 #### :books: Resources
 
-- [Use branching logic in Microsoft Forms](https://support.microsoft.com/en-us/office/use-branching-logic-in-microsoft-forms-16634fda-eddb-44da-856d-6a8213f0d8bb)
+- [Use branching logic in Microsoft Forms](https://support.microsoft.com/office/use-branching-logic-in-microsoft-forms-16634fda-eddb-44da-856d-6a8213f0d8bb)
 
 
 ## :rocket: Exercise 3: De-uglify your form
@@ -97,5 +97,9 @@ It's not perfect, so play around with it, but chances are you'll end up with a f
 
 #### :books: Resources
 
-- [Change a form theme](https://support.microsoft.com/en-us/office/change-a-form-theme-895ca902-833b-4f56-9488-f36480d837ef)
-- [Design templates for forms](https://create.microsoft.com/en-us/forms-templates)
+- [Change a form theme](https://support.microsoft.com/office/change-a-form-theme-895ca902-833b-4f56-9488-f36480d837ef)
+- [Design templates for forms](https://create.microsoft.com/forms-templates)
+
+## Next steps
+
+Proceed with [Lab 3](../Lab03/README.md)

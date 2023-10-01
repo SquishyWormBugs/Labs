@@ -25,8 +25,8 @@ Fortunately, SharePoint provides the option to create a list from an existing li
 
 #### :books: Resources
 
-- [Create a new list based on the columns in another list](https://support.microsoft.com/en-us/office/create-a-new-list-based-on-the-columns-in-another-list-49666e8c-8c48-414f-8e5e-dc0e232acd27)
-- [Create a list from the Lists app](https://support.microsoft.com/en-us/office/create-a-list-from-the-lists-app-b5e0b7f8-136f-425f-a108-699586f8e8bd)
+- [Create a new list based on the columns in another list](https://support.microsoft.com/office/create-a-new-list-based-on-the-columns-in-another-list-49666e8c-8c48-414f-8e5e-dc0e232acd27)
+- [Create a list from the Lists app](https://support.microsoft.com/office/create-a-list-from-the-lists-app-b5e0b7f8-136f-425f-a108-699586f8e8bd)
 
 
 ## :rocket: Exercise X: Add a status column to the Design Triage list
@@ -47,7 +47,7 @@ Let's add a Status column to the Design Triage list. This will be used to filter
 
 #### :books: Resources
 
-- [Require approval of documents in SharePoint using Power Automate](https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/require-doc-approval)
+- [Require approval of documents in SharePoint using Power Automate](https://learn.microsoft.com/sharepoint/dev/business-apps/power-automate/guidance/require-doc-approval)
 
 
 ## :rocket: Exercise X: Create a Design Triage rejection flow
@@ -110,4 +110,4 @@ Let's add a Status column to the Design Triage list. This will be used to filter
 
 #### :books: Resources
 
-- [Complete a custom action for the selected item Power Automate template](https://powerautomate.microsoft.com/en-us/templates/details/64cb6f364936458b8f23652b6951fb28/complete-a-custom-action-for-the-selected-item/)
+- [Complete a custom action for the selected item Power Automate template](https://powerautomate.microsoft.com/templates/details/64cb6f364936458b8f23652b6951fb28/complete-a-custom-action-for-the-selected-item/)
