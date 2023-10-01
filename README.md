@@ -1,5 +1,3 @@
-# README Goes here
+# Squishy Worm Bugs Labs
 
-## Installation
-
-## Usage
+To get started, proceed with [Lab 1](Lab01\README.md)
