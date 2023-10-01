@@ -125,7 +125,7 @@ Many of the labs in this workshop will require you to get access to full Power A
    > Pssst. If you do not have an address in the United States, try using the address of your hotel.
 4. In the left navigation, select **Purchase services**
 5. In the **Purchase services** page, search for **Power Apps Premium**. Select **Details**
-6. In the **Power Apps per user plan** page, select **Start free trial**.
+6. In the **Power Apps Premium** page, select **Start free trial**.
 7. In the **Check out** page, select **Try now**
 8. In the **Order receipt**, select **Continue**
 9. While in the same browser profile, browse to <https://aka.ms/ppac>, which will take you to the **Power Platform Admin Center**
