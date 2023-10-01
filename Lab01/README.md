@@ -19,22 +19,6 @@ Welcome to your first lab! This lab is all about getting your environment ready 
 
 </details>
 
-<details>
-<summary><b>Exercises</b></summary>
-
-- [Lab 1: Getting Your Environment Ready](#lab-1-getting-your-environment-ready)
-  - [:rocket: Exercise 1: Create your own Microsoft 365 Tenant](#rocket-exercise-1-create-your-own-microsoft-365-tenant)
-      - [:books: Resources](#books-resources)
-  - [:rocket: Exercise 2: Using browser profiles](#rocket-exercise-2-using-browser-profiles)
-  - [Exercise 3: Adding trial licenses](#exercise-3-adding-trial-licenses)
-  - [:tada: All Done](#tada-all-done)
-- [Next](#next)
-
-</details>
-
-
-
-
 ## :rocket: Exercise 1: Create your own Microsoft 365 Tenant
 
 >:exclamation: This exercise is only required if you do not have already have access to a Microsoft 365 tenant and/or have the ability to create your own SharePoint site and list.
@@ -156,6 +140,30 @@ Many of the labs in this workshop will require you to get access to full Power A
 15. Using the breadcrumb at the top of the page, select your default environment to return to the environment details.
 16. In the **Details** area, select **Edit**
 17. In the **Edit details** pane, change the environment **Name** to **Personal productivity (default)** and select **Save**. This will rename your default environment, which is part of a sound [environment strategy](https://learn.microsoft.com/microsoft-365/community/defining-a-power-platform-environment-strategy#why-is-the-default-environment-special)
+
+
+
+## :rocket: Exercise 4: Create a SharePoint site
+
+We'll be using a SharePoint List to store  form responses. This has several advantages such as available licensing, low barrier of entry, views, field sorting, validation, web parts, calculated fields, webhooks, power automate triggers, power apps integration, and more. There are also potential disadvantages depending on the solution.
+
+> :bulb: This is not a recommendation to prefer SharePoint as a data source, just a recognition that it is the most popular data source for a lot of reasons and you're going to be using it at some point. It is, however, an excellent choice for some scenarios. As with all things, it depends on the context.
+
+1. While you don't have to have a dedicated site for this, we recommend creating one to keep things scoped here and for easy reference later. 
+
+1. Create a new site from SharePoint home (https://YOURTENANTHERE.sharepoint.com/_layouts/15/sharepoint.aspx). You can choose either a Team site or a Communication site, but Communication site will likely be less fuss for our purposes:
+
+    ![create a site](./assets/formsToListCreateSite.png)
+
+1. Provide a name for the site and a unique URL then click **Finish**:
+
+    ![create site details](./assets/formsToListCreateSiteDetails.png)
+
+1. When prompted to browse templates, just click **Maybe later**. Now you've got a site!
+
+#### :books: Resources
+
+-[Team Site vs. Communication Site: Which one should I choose?](https://learn.microsoft.com/microsoft-365/community/team-site-or-communication-site)
 
 
 ## :tada: All Done

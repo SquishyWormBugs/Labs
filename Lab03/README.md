@@ -13,30 +13,7 @@ Here's a technical drawing:
 Also, if you didn't finish the form or ran into trouble, here's a link to copy the form into your tenant: https://forms.office.com/Pages/ShareFormPage.aspx?id=ZmB4d5LZv0Gs188U2oRP_SgB4nRVA7RLsq9_SGo5o3hUOEFUWDA0WU4yMkQ2OFFNNFpLSkNSQlNJSC4u&sharetoken=eblJmSBhNgeiCsnV7Mts
 
 
-## :rocket: Exercise X: Create a SharePoint site
-
-We'll be using a SharePoint List to store our form responses. This has several advantages such as available licensing, low barrier of entry, views, field sorting, validation, web parts, calculated fields, webhooks, power automate triggers, power apps integration, and more. There are also potential disadvantages depending on the solution.
-
-> :bulb: This is not a recommendation to prefer SharePoint as a data source, just a recognition that it is the most popular data source for a lot of reasons and you're going to be using it at some point. It is, however, an excellent choice for some scenarios. As with all things, it depends on the context.
-
-1. While you don't have to have a dedicated site for this, we recommend creating one to keep things scoped here and for easy reference later. If you don't have access to a [Microsoft 365 Developer Tenant](https://aka.ms/m365devprogram) and you are unable to create a site in your tenant, please ask us for assistance.
-
-1. Create a new site from SharePoint home (https://YOURTENANTHERE.sharepoint.com/_layouts/15/sharepoint.aspx). You can choose either a Team site or a Communication site, but Communication site will likely be less fuss for our purposes:
-
-    ![create a site](./assets/formsToListCreateSite.png)
-
-1. Provide a name for the site and a unique URL then click **Finish**:
-
-    ![create site details](./assets/formsToListCreateSiteDetails.png)
-
-1. When prompted to browse templates, just click **Maybe later**. Now you've got a site!
-
-#### :books: Resources
-
--[Team Site vs. Communication Site: Which one should I choose?](https://learn.microsoft.com/microsoft-365/community/team-site-or-communication-site)
-
-
-## :rocket: Exercise X: Create the triage list
+## :rocket: Exercise 1: Create the triage list
 
 1. Click the New dropdown button in the top-left corner under the site header and choose **List**:
 
@@ -83,7 +60,7 @@ We'll be using a SharePoint List to store our form responses. This has several a
 - [Set up your SharePoint site with lists and libraries](https://learn.microsoft.com/sharepoint/dev/business-apps/get-started/set-up-sharepoint-site-lists-libraries)
 
 
-## :rocket: Exercise X: Add a choice column utilizing column formatting
+## :rocket: Exercise 2: Add a choice column utilizing column formatting
 
 We've got everything we need for the form responses, but it's very common for a triage list to have additional columns to assist in categorizing, cleaning, and routing the items. In our case, we're going to have the people triaging the requests assign a priority.
 
@@ -106,7 +83,7 @@ We've got everything we need for the form responses, but it's very common for a 
 - [Format the pill shapes in a choice column](https://support.microsoft.com/office/format-the-pill-shapes-in-a-choice-column-6c886eab-7083-4d08-9ba3-ca92be4803f9)
 
 
-## :rocket: Exercise X: Create a flow to route form responses to the design triage list
+## :rocket: Exercise 3: Create a flow to route form responses to the design triage list
 
 When a form receives a response, a Power Automate flow can be triggered with the result of the response(s) allow you to take action and route that data as needed. In our case, we're going to dump it directly into our Design Triage list so it can be dealt with.
 
